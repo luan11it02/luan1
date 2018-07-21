@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.HoTroActivity">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageButton
+            android:id="@+id/btn_back_hotro"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:tint="@color/white" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="Yêu cầu hỗ trợ"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <libs.mjn.fieldset.FieldSetView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        app:fsv_borderRadius="8dp"
+        app:fsv_legend="Name"
+        app:fsv_legendPosition="left"
+        app:fsv_legendSize="16sp"
+        app:fsv_legendColor="@color/colorPrimary"
+        app:fsv_borderColor="@color/colorAction">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edt_name_hotro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="Enter name..."
+            android:lines="1"
+            android:maxLines="1"
+            android:textSize="14sp"/>
+
+    </libs.mjn.fieldset.FieldSetView>
+
+    <libs.mjn.fieldset.FieldSetView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        app:fsv_borderRadius="8dp"
+        app:fsv_legend="Email or SĐT"
+        app:fsv_legendPosition="left"
+        app:fsv_legendSize="16sp"
+        app:fsv_legendColor="@color/colorPrimary"
+        app:fsv_borderColor="@color/colorAction">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edt_email_sdt_hotro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="Email or số điện thoại"
+            android:lines="1"
+            android:maxLines="1"
+            android:textSize="14sp"/>
+
+    </libs.mjn.fieldset.FieldSetView>
+
+    <libs.mjn.fieldset.FieldSetView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        app:fsv_borderRadius="8dp"
+        app:fsv_legend="Yêu cầu"
+        app:fsv_legendPosition="left"
+        app:fsv_legendSize="16sp"
+        app:fsv_legendColor="@color/colorPrimary"
+        app:fsv_borderColor="@color/colorAction">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edt_noidung_hotro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="Nội dung yêu cầu"
+            android:lines="10"
+            android:maxLines="10"
+            android:textSize="14sp"/>
+
+    </libs.mjn.fieldset.FieldSetView>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_gui_hotro"
+            android:layout_marginRight="4dp"
+            android:text="Gửi"
+            android:background="@color/colorAction"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_quaylai_hotro"
+            android:layout_marginLeft="4dp"
+            android:text="Quay lại"
+            android:background="@color/colorAction"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

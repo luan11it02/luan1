@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <libs.mjn.fieldset.FieldSetView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        app:fsv_borderRadius="8dp"
+        app:fsv_legend="Name"
+        app:fsv_legendPosition="left"
+        app:fsv_legendSize="16sp"
+        app:fsv_legendColor="@color/colorPrimary"
+        app:fsv_borderColor="@color/colorAction">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edt_name_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="Enter name..."
+            android:lines="1"
+            android:maxLines="1"
+            android:textSize="14sp"/>
+
+    </libs.mjn.fieldset.FieldSetView>
+
+    <Button
+        android:id="@+id/btn_name_user"
+        android:layout_marginTop="8dp"
+        android:text="Xong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

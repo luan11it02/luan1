@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "348792641522",
+    "firebase_url": "https://scooter-6e80c.firebaseio.com",
+    "project_id": "scooter-6e80c",
+    "storage_bucket": "scooter-6e80c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348792641522:android:8cc944d946a7e5bf",
+        "android_client_info": {
+          "package_name": "com.app.lfc.scooter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348792641522-5ujmt353fg2r3scucv2tolh6nsiao2s2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.lfc.scooter",
+            "certificate_hash": "a25e06e96f01698ba1957526bac960dff6e29a0a"
+          }
+        },
+        {
+          "client_id": "348792641522-q4v5qa224fjhtuvklhmtsnrjvnn2sbe5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyjW3lOzqq8m-9436AddDJQ0jTYLn2NAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348792641522-q4v5qa224fjhtuvklhmtsnrjvnn2sbe5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

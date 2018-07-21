@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Scooter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+
+    <string name="hotline">Hotline</string>
+    <string name="ho_tro_truc_tiep">Hỗ trợ trực tiếp</string>
+    <string name="tap_to_call">Tap to call</string>
+    <string name="sdt">08 665 666 55</string>
+    <string name="bai_viet_moi_nhat">Bài viết mới nhất</string>
+    <string name="xem_them">Xem thêm</string>
+    <string name="chi_nhanh_gan_nhat">Địa điểm gần nhất</string>
+    <string name="txt_2km">2km</string>
+    <string name="xem_huong_dan">Xem hướng dẫn</string>
+    <string name="honda">HONDA</string>
+    <string name="suzuki">SUZUKI</string>
+    <string name="yamaha">YAMAHA</string>
+    <string name="sym">SYM</string>
+    <string name="piaggio">PIAGGIO</string>
+    <string name="chonloaixe">Chọn loại xe :</string>
+
+    <string name="my_message_notification_title_template">My message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="my_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="tru_so_chinh">TRỤ SỞ CHÍNH</string>
+    <string name="chi_nhanh_mien_nam">Chi Nhánh Khu Vực Miền Nam</string>
+    <string name="chi_nhanh_mien_trung">Chi Nhánh Khu Vực Miền Trung</string>
+    <string name="chi_nhanh_mien_bac">Chi Nhánh Khu Vực Miền Bắc</string>
+    <string name="chi_nhanh_mien_dong">Chi Nhánh Khu Vực Miền Đông</string>
+</resources>

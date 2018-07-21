@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/colorBackgroung"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="125dp">
+
+            <ImageButton
+                android:padding="2dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/btn_menu_main"
+                android:scaleType="fitXY"
+                android:src="@drawable/menu"
+                android:background="@color/transparent"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+
+            <ImageButton
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/btn_search_main"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_search"
+                android:background="@color/transparent"
+                android:layout_alignParentRight="true"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/txt_name_user"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <TextView
+                android:id="@+id/txt_user"
+                android:gravity="top"
+                android:textColor="@color/white"
+                android:layout_below="@+id/txt_name_user"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp" />
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="75dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txt_hotro"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Yêu cầu hỗ trợ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp" />
+                    <TextView
+                        android:textStyle="italic"
+                        android:layout_marginTop="4dp"
+                        android:text="Gửi yêu cầu hỗ trợ"
+                        android:layout_marginRight="4dp"
+                        android:layout_below="@+id/txt_hotro"
+                        android:layout_toLeftOf="@+id/btn_hotro"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/btn_hotro"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:text="Gửi yêu cầu"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/custom_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txt_tuvan"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Tư vấn sửa chữa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp" />
+
+                    <TextView
+                        android:textStyle="italic"
+                        android:layout_marginTop="4dp"
+                        android:text="Gặp rắc rối với xe của mình"
+                        android:layout_marginRight="4dp"
+                        android:layout_below="@+id/txt_tuvan"
+                        android:layout_toLeftOf="@+id/btn_tuvan"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/btn_tuvan"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:text="Kiểm tra lỗi"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/custom_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txt_tintuc"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Tin tức - Bài viết"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp" />
+
+                    <TextView
+                        android:textStyle="italic"
+                        android:layout_marginTop="4dp"
+                        android:text="Những tin tức, bài viết mới nhất cho xe tay ga"
+                        android:layout_marginRight="4dp"
+                        android:layout_below="@+id/txt_tintuc"
+                        android:layout_toLeftOf="@+id/btn_tintuc"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/btn_tintuc"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:text="Xem tin tức"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/custom_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_diadiem"
+                    app:cardCornerRadius="4dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="Địa điểm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp" />
+
+                        <TextView
+                            android:textStyle="italic"
+                            android:layout_marginLeft="4dp"
+                            android:text="Xem đường đi đến chi nhánh gần nhất"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_lienhe"
+                    app:cardCornerRadius="4dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="Liên hệ"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp" />
+
+                        <TextView
+                            android:textStyle="italic"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:text="Hotline: 08 665 666 55"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Quảng cáo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <android.support.v4.view.ViewPager
+                        android:layout_marginTop="4dp"
+                        android:id="@+id/viewpager_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

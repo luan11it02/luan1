@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.IntroduceActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarintroduce"
+        app:title="Giới thiệu Scooter Việt Nam"
+        app:titleTextColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/tieuchuan_scootervietnam"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+            <TextView
+                android:padding="5dp"
+                android:textColor="#000"
+                android:text="Scootervietnam.vn là một cổng thông tin dành cho cộng đồng người sử dụng xe tay ga ở Việt Nam. Website là tập hợp những tin tức xe tay ga mới, review đánh giá các xe tay ga phổ biến và sản phẩm phụ tùng hay độ xe tay ga. Scootervietnam.vn còn là một đội ngũ nghiên cứu về hệ thống truyền động xe tay ga (nồi xe tay ga) với những sản phẩm gói làm nồi Performance Smooth.
+
+Scootervietnam.vn còn là nơi để giải đáp tất cả thắc mắc của các bạn về xe tay ga với sự tương tác thảo luận trên website và fanpage Scooter Việt Nam, giải đáp và tư vấn chính xác về xe tay ga, các bệnh thường gặp của xe và các khắc phục, bên cạnh đó, sứ mệnh của Scootervietnam.vn còn là một nơi mà bạn có thể tìm thấy những địa chỉ uy tín về bảo dưỡng và sữa chữa xe tay ga cùng hệ thống những cửa hàng ủy nhiệm đạt tiêu chuẩn của scootervietnam.vn."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

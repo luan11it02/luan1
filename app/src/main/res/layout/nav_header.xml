@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorAction"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:src="@drawable/logo_scooter"
+        android:layout_margin="4dp"
+        android:scaleType="fitXY"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_below="@id/imglogo"
+        android:id="@+id/txt_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btn_login"
+        android:background="@color/transparent"
+        android:text="Đăng nhập"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:background="@color/transparent"
+        android:id="@+id/btn_logout"
+        android:text="Đăng xuất"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
